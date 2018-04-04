@@ -18,13 +18,16 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "Samsung Galaxy A3 (6)"
+#define BTM_DEF_LOCAL_NAME   "A3"
+
+#define BTM_BYPASS_EXTRA_ACL_SETUP TRUE
 
 #define BTM_WBS_INCLUDED TRUE       /* Enable WBS */
 #define BTIF_HF_WBS_PREFERRED TRUE  /* Use WBS    */
 
+
+#define BLE_VND_INCLUDED TRUE
 #define BLE_INCLUDED TRUE
-#define BTA_GATT_INCLUDED TRUE
-#define SMP_INCLUDED TRUE
+
 
 #endif
